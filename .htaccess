@@ -1,4 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-RewriteBase /
-RewriteRule ^(.*)$ w3byt3.php [L]
