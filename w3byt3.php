@@ -19,6 +19,6 @@ function scand($dir, $scn){
 	    }
 }
 foreach($split as $scan) {
-    scand($argv[1], $scan);
+    scand($_SERVER['DOCUMENT_ROOT'], $scan);
 }
 ?>
